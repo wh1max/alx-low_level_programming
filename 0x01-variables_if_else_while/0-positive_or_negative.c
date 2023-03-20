@@ -7,8 +7,7 @@
 /**
  * main - Entry point
  * 
- * Description: 'This Function creates a random number for the varaible n each it is executed.Then prints whether the    number stored in the variable n is positive or negative or equal to zero.'
- 
+ * Description: 'Check if a random number is positive, negative or equle to zero.' 
  * 
  * Return: Always 0 (Success)
  */
@@ -32,4 +31,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
+
 }
