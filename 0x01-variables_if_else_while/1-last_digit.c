@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Determine if the last digit of a random number is
+ * main - Check if the last digit of a random number is
  * greater than or less than 5, or is zero..
 (*
  * Return: 0 on success
@@ -17,7 +17,7 @@ int main(void)
 	char string[] = "Last digit";
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = abs(n) % 10;
+	last_digit = n % 10;
 	printf("%s of %d is %d and is ", string, n, last_digit);
 	/* your code goes there */
 	if (last_digit > 5)
