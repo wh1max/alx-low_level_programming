@@ -8,5 +8,5 @@ int _strlen(char *s)
 	{
 		index++;
 	}
-	return(index);
+	return (index);
 }
