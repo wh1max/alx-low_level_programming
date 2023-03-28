@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_int : a function to swap the values of two integers.
+ * swap_int : a function that swaps the values of two integers.
  *
  *@a : the first entry
  *@b : the second entry
