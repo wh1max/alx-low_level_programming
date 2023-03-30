@@ -4,7 +4,7 @@
   * 3 or 5 below 1024.
   * Return: Nothing.
   */
-int main()
+int main(void)
 {
 	int sum = 0;
 	int i = 1;
@@ -18,5 +18,5 @@ int main()
 	}
 
 	printf("%d\n", sum);
-	return 0;
+	return (0);
 }
