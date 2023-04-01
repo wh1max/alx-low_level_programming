@@ -11,6 +11,7 @@ int main(void)
 
 	for (i = 2; i <= n; i++)
 	{
+
 		while(n % i == 0)
 		{
 			n /= i;
@@ -22,5 +23,5 @@ int main(void)
 			break;
 		}
 	}
-	return 0;
+	return (0);
 }
