@@ -6,13 +6,15 @@
 * @n: n bytes
 * Return: pointer
 */
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned char *u = (unsigned char *) s;
+	char *b = src;
+	char *a = dest;
 
-	while (n-- > 0x00)
+	while (n != 0)
 	{
-		*u++ = b;
+		*a++ = *b++;
+		n--;
 	}
-	return (s);
+	return (dest);
 }
