@@ -1,9 +1,9 @@
-#include "main.h"
+#include "main"
 /**
-* _memset - fill memory .
-* @s: pointer
-* @b: hexadecimal number
-* @n: n bytes
+* _memcpy - copy memory area.
+* @dest: copied
+* @src: original
+* @n: limit
 * Return: pointer
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
