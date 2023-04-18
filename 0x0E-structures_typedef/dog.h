@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * dog_t - typedef for struct dog
 */
