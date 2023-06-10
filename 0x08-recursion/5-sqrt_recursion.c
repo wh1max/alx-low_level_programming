@@ -1,14 +1,11 @@
 #include "main.h"
 /**
  * _sqrt_recursion - returns the natural square root of n
- * .
+ * 
  * @n: Number Integer
- * @i: Number Integer
- * return : On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  *
- * sqrt_helper - Helper function for calculating square root recursively.
- * Return : The natural square root of the number, or -1 if not found.
+ * Return: On success 1. 
+ * On error, -1 is returned, and errno is set appropriately.
  *
  *
  */
@@ -22,7 +19,14 @@ int _sqrt_recursion(int n)
 	}
 	return (sqrt_helper(n, 0));
 }
-
+/**
+* sqrt_helper - Helper function for calculating square root recursively.
+*
+* @n: Number Integer
+* @i: Number Integer
+*
+* Return : The natural square root of the number, or -1 if not found.
+*/
 int sqrt_helper(int n, int i)
 {
 	if (i * i == n)
