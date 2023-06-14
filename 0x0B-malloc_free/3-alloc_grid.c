@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * alloc_grid - function to return a pointer of a 2d array
  *
@@ -20,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	if (height < 1)
 		return (NULL);
-	matrix = malloc(height * sizeof(int*));
+	matrix = malloc(height * sizeof(int *));
 	if (matrix == 0)
 		return (NULL);
 	for (a = 0; a < height; a++)
